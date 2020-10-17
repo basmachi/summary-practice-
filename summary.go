@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	limitCashback := 30
+	limitCashback := 178
 	percent := 10
 	/*purchase1 := 1040
 	purchase2 := 1020
@@ -14,7 +14,7 @@ func main() {
 	purchase5 := 1070
 	//sumPurchases :=purchase1 + purchase2 + purchase3 + purchase4 + purchase5   //obshaya summa pokupok
 	*/
-	purchases := [5]int{10,20,7,14,9}
+	purchases := [5]int{107,245,754,145,542}
 //	fmt.Println(purchases)
 	sumPurchases := 0
 	for _, purchase := range purchases {
